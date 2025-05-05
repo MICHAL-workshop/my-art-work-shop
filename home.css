@@ -191,3 +191,13 @@ h1{
 
 }
 
+.b-s-d {
+    font-size: 15px; /* גודל טקסט קטן */
+    color: #555; /* צבע כהה לקריאות */
+    text-align: right; /* טקסט מיושר לימין */
+    position: absolute; /* מיקום מוחלט */
+    top: 10px; /* ריחוק מהחלק העליון */
+    right: 10px; /* ריחוק מהקצה הימני */
+    font-family: Arial, sans-serif; /* גופן פשוט */
+}
+
