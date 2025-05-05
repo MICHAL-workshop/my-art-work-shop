@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    margin: 0;
+    background: linear-gradient(to right, #cecece, #ffe4c4); /* אדום לכחול */
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header {
+    background-color:linear-gradient(to right, rgb(250, 250, 250), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    position: relative;
+    background: #ffffff00;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: linear-gradient(to right, #ffe4c4dc, #cecece7f); /* אדום לכחול */
+    color: #ce5d5dd3;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1em;    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background: linear-gradient(to right, #ffe4c4, #cecece); /* אדום לכחול */
+}
+
+
+
+/* Style for the footer and social media logos */
+footer.social-media {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.285);
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    z-index: 1000;
+}
+
+footer.social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer.social-media li {
+    margin: 10px 0;
+}
+
+footer.social-media .social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+footer.social-media .social-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+footer.social-media .social-icon:hover img {
+    transform: scale(1.1);
+}
+
+/* Specific background colors for each network's logo */
+footer.social-media .whatsapp img {
+    background-color: #0000001e;
+}
+
+footer.social-media .facebook img {
+    background-color: #0000001e;
+}
+
+footer.social-media .instagram img {
+    background-color: #0000001e;
+}
+
+
+.box {
+    background: #ffffffab;
+    margin: 100px auto;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+    
+}
+.box.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.box h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #000000;
+}
+
+.box p {
+    color: #000000;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+h2{
+    color: #ce5d5dd3;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalog-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #c97272c7;
+    margin: 0;
+    background: linear-gradient(to right, #cecece, #ffe4c4); /* אדום לכחול */
+    min-height: 100vh;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.bottom-header {
+    background: linear-gradient(to right, #ffe4c4, #cececeaf);
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.bottom-nav a {
+    color: #ce5d5dd3;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.bottom-nav a:hover {
+    color: #f1c40f;
+}
+
+
+h1{
+    color: #ce5d5dd3;
+
+}
+
